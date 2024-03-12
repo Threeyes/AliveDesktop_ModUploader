@@ -5,17 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/AliveDesktopHub.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Items/Ocean/Scenes/Entry.unity
     guid: 2400c9de65aad1342a97e51c4c450cb7
-  - enabled: 0
-    path: Assets/Items/Dummy/Scenes/Entry.unity
-    guid: 832f5c9186c61ff47bb3d68bc9cf0358
+  - enabled: 1
+    path: Assets/Items/Default/Scenes/Entry.unity
+    guid: 5229ea9ff25e341448c2a1e91e8ecc7d
   m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c5a7efb76488af849ba2dbf54e86ad33,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d632b29f168f63046a93246dfa4e59fc,
       type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 82d3bd3ac64bc0341b8e96b7541be0cd,
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8ec39f3af5296eb45865e968539c22e5,
       type: 2}

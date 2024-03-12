@@ -135,9 +135,10 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 0.2.0
+  bundleVersion: 0.4.1
   preloadedAssets:
   - {fileID: -2718294133038031471, guid: d632b29f168f63046a93246dfa4e59fc, type: 2}
+  - {fileID: 11400000, guid: c5a7efb76488af849ba2dbf54e86ad33, type: 2}
   - {fileID: 5578492943961302526, guid: b8ea1aa81d64cb846aaed0bc7dae01df, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -814,7 +815,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: USE_INPUT_SYSTEM_POSE_CONTROL
-    Standalone: USE_DOTween;USE_NaughtyAttributes;USE_JsonDotNet;USE_VFX;Threeyes_UnityGifDecoder;Threeyes_VideoPlayer;Threeyes_Timeline;Threeyes_BezierSolution;Threeyes_XRI;USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_PIPELINE_URP
+    Standalone: UNITY_PIPELINE_URP;USE_DOTween;USE_NaughtyAttributes;USE_JsonDotNet;USE_VFX;Threeyes_UnityGifDecoder;Threeyes_VideoPlayer;Threeyes_Timeline;Threeyes_BezierSolution;Threeyes_XRI;USE_INPUT_SYSTEM_POSE_CONTROL
     Windows Store Apps: UNITY_PIPELINE_URP;USE_INPUT_SYSTEM_POSE_CONTROL
   additionalCompilerArguments: {}
   platformArchitecture: {}
