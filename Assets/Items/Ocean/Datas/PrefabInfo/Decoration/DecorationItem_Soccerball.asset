@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: DecorationItem_Soccerball
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Soccerball
+  prefab: {fileID: 4804730356038105691, guid: e6b6a9cbc0b3c5345a9bb92bb9a94a85, type: 3}
+  preview: {fileID: 2800000, guid: d8bfc2eaabae3894ea88b5028b04d35a, type: 3}
+  description: 
+  tooltip: 
