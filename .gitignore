@@ -82,3 +82,5 @@ umod-*.pdb
 #AliveCursorSDK 文件
 /Assets/Samples/AliveCursorSDK
 /Assets/Samples/AliveCursorSDK.meta
+/Assets/FlockBox
+/Assets/FlockBox.meta

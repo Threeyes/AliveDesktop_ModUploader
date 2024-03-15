@@ -17,6 +17,9 @@ MonoBehaviour:
   itemWindow_ExePath: 
   itemWindow_IsPreviewGif: 0
   itemWindow_ShowOutputDirectory: 1
+  platformMode: 0
   hubSimulator_ShowAssistantGizmo: 1
   hubSimulator_ShowAssistantInfo: 1
-  platformMode: 0
+  hubSimulator_EnableFly: 1
+  hubSimulator_IsPenetrateOnFly: 1
+  hubSimulator_UseGravity: 0
