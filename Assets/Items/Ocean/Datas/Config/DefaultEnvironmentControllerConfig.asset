@@ -67,3 +67,6 @@ MonoBehaviour:
     isSunAffectLightIntensity: 1
     isSunSyncWithRealTime: 0
     realTimeScale: 1
+    isAutoUpdateReflectionProbe: 0
+    updateReflectionProbeIntervalAngle: 30
+    updateReflectionProbeIntervalTime: 10
