@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Stack Small Blue
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Stack Small Blue
+  prefab: {fileID: 1000011468664730, guid: 2091bd1ea89690a44999b66aec6a38a7, type: 3}
+  preview: {fileID: 2800000, guid: ac38a6af73dda2648b0632b04b6a15eb, type: 3}
+  description: 
+  tooltip: 
