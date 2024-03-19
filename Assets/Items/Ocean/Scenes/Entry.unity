@@ -1584,7 +1584,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1050535547}
   - component: {fileID: 1050535546}
-  - component: {fileID: 1050535548}
   m_Layer: 0
   m_Name: EnvironmentController
   m_TagString: Untagged
@@ -1687,61 +1686,6 @@ Transform:
   - {fileID: 1414722637}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1050535548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050535545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a862823d819b2434da07a9aff5488bef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPlayStop:
-    m_PersistentCalls:
-      m_Calls: []
-  onPlay:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1050535546}
-        m_TargetAssemblyTypeName: Threeyes.Steamworks.DefaultEnvironmentController`2[[AD_SODefaultEnvironmentControllerConfig,
-          Threeyes.AliveDesktop.SDK
-        m_MethodName: RefreshReflectionProbe
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onStop:
-    m_PersistentCalls:
-      m_Calls: []
-  onActiveDeactive:
-    m_PersistentCalls:
-      m_Calls: []
-  isPlayed: 0
-  isActive: 1
-  canPlay: 1
-  canStop: 1
-  isPlayOnAwake: 0
-  isPlayOnce: 0
-  isReverse: 0
-  listListener: []
-  isGroup: 0
-  isIncludeHide: 1
-  isRecursive: 0
-  id: 
-  isInvokeByID: 0
-  targetIDLocation: 1
-  targetId: 
-  isLogOnPlay: 0
-  isLogOnStop: 0
-  state: -1
 --- !u!1 &1067902832
 GameObject:
   m_ObjectHideFlags: 0
@@ -2136,28 +2080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327ff1812ac0af74d975a4bc65c3be66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dimensions_x: 10
-  dimensions_y: 2.5
-  dimensions_z: 10
-  cellSize: 10
-  wrapEdges: 0
-  useWorldSpace: 0
-  boundaryBuffer: 1
-  sleepChance: 0
-  maxCellCapacity: 10
-  capCellCapacity: 1
-  startingPopulations:
-  - prefab: {fileID: 8060825034220036533, guid: 85a46b6726470144cb9406e87ea0420e,
-      type: 3}
-    population: 50
-  - prefab: {fileID: 6498399424134327081, guid: aec65a72b3757764280e2b0d56703031,
-      type: 3}
-    population: 50
-  - prefab: {fileID: 2291687842740874308, guid: 7a92ce4b1b91abb4384561dc8f3864e7,
-      type: 3}
-    population: 1
-  drawBoundary: 1
-  drawOccupiedCells: 0
 --- !u!4 &1385211393
 Transform:
   m_ObjectHideFlags: 0
@@ -2907,22 +2829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327ff1812ac0af74d975a4bc65c3be66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dimensions_x: 20
-  dimensions_y: 5
-  dimensions_z: 20
-  cellSize: 10
-  wrapEdges: 0
-  useWorldSpace: 0
-  boundaryBuffer: 0.5
-  sleepChance: 0
-  maxCellCapacity: 10
-  capCellCapacity: 1
-  startingPopulations:
-  - prefab: {fileID: 4818226202517088364, guid: aae2e564374056c4ea395be30fb803ec,
-      type: 3}
-    population: 30
-  drawBoundary: 1
-  drawOccupiedCells: 0
 --- !u!1 &1867018976
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,27 +3315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327ff1812ac0af74d975a4bc65c3be66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dimensions_x: 10
-  dimensions_y: 4
-  dimensions_z: 10
-  cellSize: 10
-  wrapEdges: 0
-  useWorldSpace: 0
-  boundaryBuffer: 2
-  sleepChance: 0
-  maxCellCapacity: 10
-  capCellCapacity: 1
-  startingPopulations:
-  - prefab: {fileID: 147255556821653622, guid: 14a9d1701133f4b4482b56c31a69a730, type: 3}
-    population: 100
-  - prefab: {fileID: 8275225816977135971, guid: 5d78e937a7c02394091a01aef87efc11,
-      type: 3}
-    population: 100
-  - prefab: {fileID: 2291687842740874308, guid: 7a92ce4b1b91abb4384561dc8f3864e7,
-      type: 3}
-    population: 2
-  drawBoundary: 1
-  drawOccupiedCells: 0
 --- !u!4 &2125210383
 Transform:
   m_ObjectHideFlags: 0
