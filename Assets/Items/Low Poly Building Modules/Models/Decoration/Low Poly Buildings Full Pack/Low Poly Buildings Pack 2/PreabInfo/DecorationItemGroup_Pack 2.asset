@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5143bc4da72b445bd078ac0b24d5a1, type: 3}
+  m_Name: DecorationItemGroup_Pack 2
+  m_EditorClassIdentifier: 
+  listData:
+  - {fileID: 11400000, guid: 26106ee151d8fa349b4efc1e067584f7, type: 2}
+  - {fileID: 11400000, guid: 297a80e8f0f8669409a6927e6919e5ca, type: 2}
+  - {fileID: 11400000, guid: 387ec35cc4b670149ad674bfc1b013e5, type: 2}
+  - {fileID: 11400000, guid: d663d3da952c7cf45bc5eb6822220ab7, type: 2}
+  - {fileID: 11400000, guid: 5f7cec062c48aed438d3cb4f9ff09f91, type: 2}
+  - {fileID: 11400000, guid: ca4b9d85c51cdba46bd1d1f01095456e, type: 2}
+  - {fileID: 11400000, guid: 139d2c5e2bcb1514fb7bd2c2140329d4, type: 2}
+  - {fileID: 11400000, guid: 2816c288fa4c76f489bee80dad0f9f0c, type: 2}
+  - {fileID: 11400000, guid: 2bd0029bed2a5bb4a9e6d3e698b0e421, type: 2}
+  - {fileID: 11400000, guid: 99674ac606ed0974290eedfb4fe95c21, type: 2}
+  remark: 
+  title: Pack 2

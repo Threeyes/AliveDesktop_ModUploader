@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Basic Highest Doubled Green
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Basic Highest Doubled Green
+  prefab: {fileID: 1000010343974376, guid: c3c046957c094bd409a1c60c6953b4d2, type: 3}
+  preview: {fileID: 2800000, guid: 6d951f03323e06d49be1e9c7f8ee7582, type: 3}
+  description: 
+  tooltip: 

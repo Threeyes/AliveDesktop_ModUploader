@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Pair House White High
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Pair House White High
+  prefab: {fileID: 1000012823512026, guid: aa4f03ddf0acd81499880aadf26b54f0, type: 3}
+  preview: {fileID: 2800000, guid: caa56990a9d80c8439af4a06c06a8768, type: 3}
+  description: 
+  tooltip: 

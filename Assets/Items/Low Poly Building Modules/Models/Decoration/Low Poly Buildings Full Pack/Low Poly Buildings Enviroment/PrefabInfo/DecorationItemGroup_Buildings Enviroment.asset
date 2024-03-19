@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5143bc4da72b445bd078ac0b24d5a1, type: 3}
+  m_Name: DecorationItemGroup_Buildings Enviroment
+  m_EditorClassIdentifier: 
+  listData:
+  - {fileID: 11400000, guid: ada9bcd169e04e34d8f25a15714d985c, type: 2}
+  - {fileID: 11400000, guid: 1c222c2b1b9db604982df0dd02b6b571, type: 2}
+  - {fileID: 11400000, guid: 503beae7e880c3648a38a0096b725ce4, type: 2}
+  - {fileID: 11400000, guid: afe4c812f61ef034da30d55c277949ae, type: 2}
+  - {fileID: 11400000, guid: d25827594e36cbf4db23f531d2019257, type: 2}
+  - {fileID: 11400000, guid: 2a0d5fad04879004e969934955c13840, type: 2}
+  - {fileID: 11400000, guid: ec351ce5936516b4ea62248a7231d607, type: 2}
+  - {fileID: 11400000, guid: 00b1a06d2ea332c4b82f46d7d2295a46, type: 2}
+  - {fileID: 11400000, guid: e1f425449d17bb54c99957a0b78ebe0f, type: 2}
+  - {fileID: 11400000, guid: 56b77a71499630e458cf2bcec9ae5cb1, type: 2}
+  - {fileID: 11400000, guid: 11248ba89d26cfb4389145f3b66ed10b, type: 2}
+  - {fileID: 11400000, guid: bb5def9f850d3ed4e92d2c4fc119be54, type: 2}
+  - {fileID: 11400000, guid: 61a983e93b8ae8e4193f7d44dbef0589, type: 2}
+  - {fileID: 11400000, guid: d5b00fac01d3be145b42c53219ece1fa, type: 2}
+  - {fileID: 11400000, guid: fb885c2ff5a9e92428c8b00f738a67e4, type: 2}
+  - {fileID: 11400000, guid: 5ab34f6b8d8e599438f1241880e400f9, type: 2}
+  - {fileID: 11400000, guid: fee3467f81a9508439c4d570e419c8ec, type: 2}
+  - {fileID: 11400000, guid: 40a1912e9d3781a49835a462bb7169c4, type: 2}
+  - {fileID: 11400000, guid: c14dab3da57af71419b4bf3a7c8849d0, type: 2}
+  - {fileID: 11400000, guid: ee331bdbd8a20eb41a5d5522b9c10d9e, type: 2}
+  - {fileID: 11400000, guid: eaf857480babd6e42875cc3abcbc4650, type: 2}
+  - {fileID: 11400000, guid: 4daeeb5486fd3144db3c05f3753cf2ce, type: 2}
+  - {fileID: 11400000, guid: 7af5ed4a314aea9439f3cdb08e3fdbba, type: 2}
+  - {fileID: 11400000, guid: 46236d8ca7827e140b5ba0522aabecb5, type: 2}
+  - {fileID: 11400000, guid: b227ca4d46b92374c80216dd6569afe1, type: 2}
+  - {fileID: 11400000, guid: 74333e3d255dee449a329d02bded9453, type: 2}
+  - {fileID: 11400000, guid: cd72f493737b60647b8321f43e9dfce3, type: 2}
+  - {fileID: 11400000, guid: 2cf4975b0d80f3040adf5b2aa480ad75, type: 2}
+  - {fileID: 11400000, guid: ec3bc5150e2071848bff733460725557, type: 2}
+  - {fileID: 11400000, guid: 51e9b46a8e9246c4aa5eeac479f51882, type: 2}
+  - {fileID: 11400000, guid: 78556b26fa88f784d881259e037c0400, type: 2}
+  - {fileID: 11400000, guid: 34a5f6447fca52549b129bbc6a31f7a1, type: 2}
+  - {fileID: 11400000, guid: efb258dab0ed43943ae5c54c52cbe9a3, type: 2}
+  - {fileID: 11400000, guid: 281f11f4127dd1f48bb9a340a10205a8, type: 2}
+  - {fileID: 11400000, guid: 179d71f09db21cd419e67c5cd107d73a, type: 2}
+  - {fileID: 11400000, guid: 158032d70edc55446bd5dfbece4e3ff4, type: 2}
+  remark: 
+  title: Buildings Enviroment

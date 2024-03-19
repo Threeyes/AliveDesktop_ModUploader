@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Corner House 2
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Corner House 2
+  prefab: {fileID: 1000013054801388, guid: e90c1e19422c5f64e9fdd8f808cf3163, type: 3}
+  preview: {fileID: 2800000, guid: 0dc6dcd26b24021449f0d8ddcee9263d, type: 3}
+  description: 
+  tooltip: 

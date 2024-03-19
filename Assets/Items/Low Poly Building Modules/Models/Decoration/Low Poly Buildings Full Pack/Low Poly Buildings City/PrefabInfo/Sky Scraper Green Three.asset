@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Sky Scraper Green Three
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Sky Scraper Green Three
+  prefab: {fileID: 1000011024887660, guid: 9331413b23b3b85479dd6d7d0998eaa9, type: 3}
+  preview: {fileID: 2800000, guid: 7a3ee77655679464ea8c7c89886128d6, type: 3}
+  description: 
+  tooltip: 

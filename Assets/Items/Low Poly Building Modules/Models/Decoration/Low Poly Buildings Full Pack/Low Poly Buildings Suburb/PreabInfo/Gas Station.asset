@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Gas Station
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Gas Station
+  prefab: {fileID: 1000010376581984, guid: 3f5f455028274a0429b715ab8bcd45af, type: 3}
+  preview: {fileID: 2800000, guid: 7ade34c1f0dbb2846a15d0c392bdff97, type: 3}
+  description: 
+  tooltip: 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Corner Pilars Green Hat
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Corner Pilars Green Hat
+  prefab: {fileID: 1000010961881464, guid: f6bf5d37ef36344468b219f3b6f4251b, type: 3}
+  preview: {fileID: 2800000, guid: bb8a344d5dd2afb45bed5ed7d31cc19e, type: 3}
+  description: 
+  tooltip: 

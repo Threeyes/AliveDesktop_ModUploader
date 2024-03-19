@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: Sky Scraper Pilars Low
+  m_EditorClassIdentifier: 
+  remark: 
+  title: Sky Scraper Pilars Low
+  prefab: {fileID: 1000010782514642, guid: e22ae9c0f9f4ff14bb56fe0b27f4201e, type: 3}
+  preview: {fileID: 2800000, guid: 59ecc70ae093e1a4792d6d2f4a598b65, type: 3}
+  description: 
+  tooltip: 

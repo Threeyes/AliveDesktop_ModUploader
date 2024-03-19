@@ -15,8 +15,8 @@ MonoBehaviour:
   title: Low Poly Building Modules
   description: '
 
-    LInk: https://assetstore.unity.com/packages/3d/environments/urban/low-poly-buildings-full-pack-115140#description'
-  texturePreview: {fileID: 0}
+    Link: https://assetstore.unity.com/packages/3d/environments/urban/low-poly-buildings-full-pack-115140#description'
+  texturePreview: {fileID: 2800000, guid: 55662ce30796fc144bc9713b29c7335e, type: 3}
   itemVisibility: 0
   itemName: Low Poly Building Modules
   ID:
