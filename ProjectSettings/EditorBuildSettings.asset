@@ -4,16 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/AliveDesktopHub.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Items/Ocean/Scenes/Entry.unity
-    guid: 2400c9de65aad1342a97e51c4c450cb7
-  - enabled: 1
-    path: Assets/Items/Default/Scenes/Entry.unity
-    guid: 5229ea9ff25e341448c2a1e91e8ecc7d
+  m_Scenes: []
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: c5a7efb76488af849ba2dbf54e86ad33,
       type: 2}
