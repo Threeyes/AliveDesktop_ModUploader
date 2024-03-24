@@ -79,8 +79,10 @@ crashlytics-build.properties
 #Umod 文件
 umod-*.pdb
 
-#AliveCursorSDK 文件
-/Assets/Samples/AliveCursorSDK
-/Assets/Samples/AliveCursorSDK.meta
+#AliveDesktopSDK 文件
+/Assets/Samples/AliveDesktopSDK
+/Assets/Samples/AliveDesktopSDK.meta
+
+#收费插件
 /Assets/FlockBox
 /Assets/FlockBox.meta

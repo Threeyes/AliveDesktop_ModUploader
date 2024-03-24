@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8fe64a31b203140b0a856a2bd04d0e, type: 3}
   m_Name: SteamworksEditorSetting
   m_EditorClassIdentifier: 
-  curWorkshopItemInfo: {fileID: 11400000, guid: 1c8111015dbcac04c926962aa3c4f2a7,
+  curWorkshopItemInfo: {fileID: 11400000, guid: 1e7c944c036d9bc4da30239cc2932a9c,
     type: 2}
   itemWindow_ExePath: 
   itemWindow_IsPreviewGif: 0

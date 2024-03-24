@@ -1,8 +1,11 @@
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class TestScalePos : MonoBehaviour
+/// <summary>
+/// 将模型进行整体移动，以便适配其缩放值
+/// </summary>
+public class EditorChangeScale : MonoBehaviour
 {
 
     public float scale = 2.5f;
@@ -15,3 +18,4 @@ public class TestScalePos : MonoBehaviour
         }
     }
 }
+#endif
