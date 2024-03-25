@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.threeyes.alivedesktop.sdk": "0.5.0",
+    "com.threeyes.alivedesktop.sdk": "0.5.1",
     "com.beans.deform": "1.2.1",
     "com.coffee.ui-effect": "4.0.0-preview.10",
     "com.dbrizov.naughtyattributes": "2.1.4",
@@ -66,7 +66,8 @@
         "com.coffee.ui-effect",
         "com.zibra.liquids-free",
         "com.yasirkula.beziersolution",
-        "com.dbrizov.naughtyattributes",
+		"com.threeyes.alivedesktop.sdk",
+		"com.dbrizov.naughtyattributes",
         "com.github-glitchenzo.nugetforunity",
         "jillejr.newtonsoft.json-for-unity.converters"
       ]

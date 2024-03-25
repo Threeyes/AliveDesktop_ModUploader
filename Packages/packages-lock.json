@@ -24,9 +24,9 @@
       "url": "https://package.openupm.com"
     },
     "com.threeyes.alivedesktop.sdk": {
-      "version": "file:../../AliveDesktopSDK",
+      "version": "0.5.1",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.2d.animation": "9.0.3",
         "com.unity.2d.psdimporter": "8.0.2",
@@ -73,7 +73,8 @@
         "com.unity.xr.interaction.toolkit": "2.5.2",
         "com.unity.xr.management": "4.4.1",
         "com.unity.xr.openxr": "1.8.2"
-      }
+      },
+      "url": "https://package.openupm.com"
     },
     "com.unity.2d.animation": {
       "version": "9.1.0",

@@ -35,6 +35,7 @@ MonoBehaviour:
     - com.coffee.ui-effect
     - com.zibra.liquids-free
     - com.yasirkula.beziersolution
+    - com.threeyes.alivedesktop.sdk
     - com.dbrizov.naughtyattributes
     - com.github-glitchenzo.nugetforunity
     - jillejr.newtonsoft.json-for-unity.converters
@@ -46,6 +47,6 @@ MonoBehaviour:
   m_RegistryInfoDraft:
     m_Modified: 0
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -834
-    m_OriginalInstanceId: -836
+    m_UserModificationsInstanceId: -840
+    m_OriginalInstanceId: -844
   m_LoadAssets: 0
