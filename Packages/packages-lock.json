@@ -24,7 +24,7 @@
       "url": "https://package.openupm.com"
     },
     "com.threeyes.alivedesktop.sdk": {
-      "version": "0.5.1",
+      "version": "0.5.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {

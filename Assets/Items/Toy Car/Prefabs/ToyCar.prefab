@@ -161,10 +161,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93630d9d205166c4c80c2eaf5312d1c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cachePrefabID:
-    m_Guid: 
   cacheInstanceID:
     m_Guid: 25579df2-e51a-45d8-8543-9ebb0bf3d61b
+  cachePrefabID:
+    m_Guid: 
+  cacheScope: 
 --- !u!114 &7111910652814131210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +195,6 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 2512883559647712844}
-  - {fileID: 2573148455873353463}
   - {fileID: 6884808910183334562}
   - {fileID: 6261205962124865403}
   - {fileID: 4627753334186884745}
@@ -461,15 +461,6 @@ MonoBehaviour:
   id:
     m_Guid: 7a0bc6f8-25e6-4d46-8ba0-78369168f710
   runtimeEditableDisplayName: 
-  cacheDefaultConfig:
-    motorForce: 0
-    boostScale: 0
-    breakForce: 0
-    maxSteerAngle: 30
-    steerAngleIncreaseSpeed: 30
-    steerAngleDecreaseSpeed: 30
-    downForce: 0
-    listWheelInfo: []
   m_Rigidbody: {fileID: 1883551315186235759}
   onSteerProgressChanged:
     m_PersistentCalls:
@@ -625,12 +616,6 @@ MonoBehaviour:
   id:
     m_Guid: f383c286-44a3-4e1a-a06e-c9b3748bd3eb
   runtimeEditableDisplayName: Shell
-  cacheDefaultConfig:
-    materialIndex: 0
-    listTextureShaderProperty: []
-    listColorShaderProperty: []
-    listIntShaderProperty: []
-    listFloatShaderProperty: []
   targetRenderer: {fileID: 4059335506820419355}
   targetMaterial: {fileID: 0}
   isShareMaterial: 0
@@ -681,12 +666,6 @@ MonoBehaviour:
   id:
     m_Guid: c642b135-b751-4020-a9cb-eacd04906083
   runtimeEditableDisplayName: Interior
-  cacheDefaultConfig:
-    materialIndex: 0
-    listTextureShaderProperty: []
-    listColorShaderProperty: []
-    listIntShaderProperty: []
-    listFloatShaderProperty: []
   targetRenderer: {fileID: 4059335506820419355}
   targetMaterial: {fileID: 0}
   isShareMaterial: 0
@@ -1873,10 +1852,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93630d9d205166c4c80c2eaf5312d1c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cachePrefabID:
-    m_Guid: 
   cacheInstanceID:
     m_Guid: 156bdb5c-a620-41c5-bb62-78b6bd74ff38
+  cachePrefabID:
+    m_Guid: 
+  cacheScope: 
 --- !u!114 &8273302346541191668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3201,7 +3181,7 @@ GameObject:
   - component: {fileID: 7533297396484619217}
   - component: {fileID: 1706976183855034123}
   - component: {fileID: 2573148455873353463}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4230,10 +4210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93630d9d205166c4c80c2eaf5312d1c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cachePrefabID:
-    m_Guid: 
   cacheInstanceID:
     m_Guid: 16a1f31d-f841-4653-a5f0-19c0c1d47ec1
+  cachePrefabID:
+    m_Guid: 
+  cacheScope: 
 --- !u!114 &6123872611591883609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4482,10 +4463,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93630d9d205166c4c80c2eaf5312d1c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cachePrefabID:
-    m_Guid: 
   cacheInstanceID:
     m_Guid: 4bff7dd4-4a96-47c9-85c0-21427291196f
+  cachePrefabID:
+    m_Guid: 
+  cacheScope: 
 --- !u!114 &7177324948852215985
 MonoBehaviour:
   m_ObjectHideFlags: 0
