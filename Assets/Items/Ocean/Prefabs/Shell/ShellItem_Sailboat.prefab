@@ -623,20 +623,11 @@ MonoBehaviour:
   id:
     m_Guid: f2632d34-a7d0-4d9b-951e-bc56462095f0
   runtimeEditableDisplayName: 
-  cacheDefaultConfig:
-    strength: 1
-    objectDepth: 1
-    velocityDrag: 1
-    angularDrag: 0.5
   waterHeight: 0
   steepness: 0.088
   wavelength: 2.8
   speed: 0.57
   directions: {x: 0, y: 0.5, z: 1, w: 0.2}
-  strength: 1
-  objectDepth: 1
-  velocityDrag: 0.2
-  angularDrag: 0.2
   m_Rigidbody: {fileID: 3243095816924327978}
   effectors:
   - {fileID: 6459565482629437421}
@@ -812,7 +803,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1

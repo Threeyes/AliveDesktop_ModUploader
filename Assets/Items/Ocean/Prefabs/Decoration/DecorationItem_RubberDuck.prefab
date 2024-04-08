@@ -215,20 +215,11 @@ MonoBehaviour:
   id:
     m_Guid: 2aa468b3-f440-437d-9c83-06fb9f02d7d8
   runtimeEditableDisplayName: 
-  cacheDefaultConfig:
-    strength: 1
-    objectDepth: 1
-    velocityDrag: 1
-    angularDrag: 0.5
   waterHeight: 0
   steepness: 0.088
   wavelength: 2.8
   speed: 0.57
   directions: {x: 0, y: 0.5, z: 1, w: 0.2}
-  strength: 1
-  objectDepth: 0.2
-  velocityDrag: 0.99
-  angularDrag: 0.5
   m_Rigidbody: {fileID: 1862763499590828937}
   effectors:
   - {fileID: 1567771051898923145}
@@ -400,7 +391,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -497,12 +488,6 @@ MonoBehaviour:
   id:
     m_Guid: 06ec9ee1-94cc-4392-901a-22529e8e1142
   runtimeEditableDisplayName: Body
-  cacheDefaultConfig:
-    materialIndex: 0
-    listTextureShaderProperty: []
-    listColorShaderProperty: []
-    listIntShaderProperty: []
-    listFloatShaderProperty: []
   targetRenderer: {fileID: 6309664465076572561}
   targetMaterial: {fileID: 0}
   isShareMaterial: 0
@@ -527,9 +512,6 @@ MonoBehaviour:
   id:
     m_Guid: 68e3f4c7-0f87-474f-a141-ba26621d0db1
   runtimeEditableDisplayName: 
-  cacheDefaultConfig:
-    text: 
-    textColor: {r: 1, g: 1, b: 1, a: 1}
   text: {fileID: 5768897981400516631}
   onSetText:
     m_PersistentCalls:
