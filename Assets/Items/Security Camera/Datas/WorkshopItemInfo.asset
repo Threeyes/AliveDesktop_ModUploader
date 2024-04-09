@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cb8400536269d40b453659cc2b4044, type: 3}
+  m_Name: WorkshopItemInfo
+  m_EditorClassIdentifier: 
+  title: Security Camera
+  description: 'Real time camera!
+
+
+    Link:
+
+    -https://skfb.ly/otDXX
+
+    -https://skfb.ly/oQEws'
+  texturePreview: {fileID: 2800000, guid: b746f27325be59740b43710a6748415c, type: 3}
+  itemVisibility: 0
+  itemName: Security Camera
+  ID:
+    m_Guid: 49d7d82f-57d4-4643-b423-cc069fee7852
+  itemId: 3216537217
+  itemType: 1
+  ageRatingType: 1
+  itemStyle: 16
+  itemGenre: 0
+  itemReference: 0
+  itemFeature: 1
+  itemAdvance: 0
