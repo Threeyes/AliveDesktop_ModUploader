@@ -1,0 +1,1 @@
+Skybox material's sun size should be 0, because we will use a SunEntity gameobject as real sun.
