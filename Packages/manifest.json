@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "com.threeyes.alivedesktop.sdk": "0.5.5",
     "com.beans.deform": "1.2.1",
     "com.coffee.ui-effect": "4.0.0-preview.10",
     "com.dbrizov.naughtyattributes": "2.1.4",
+    "com.threeyes.alivedesktop.sdk": "0.5.7",
     "com.unity.2d.animation": "9.0.4",
     "com.unity.2d.psdimporter": "8.0.4",
     "com.unity.2d.sprite": "1.0.0",
@@ -66,8 +66,8 @@
         "com.coffee.ui-effect",
         "com.zibra.liquids-free",
         "com.yasirkula.beziersolution",
-		"com.threeyes.alivedesktop.sdk",
-		"com.dbrizov.naughtyattributes",
+        "com.threeyes.alivedesktop.sdk",
+        "com.dbrizov.naughtyattributes",
         "com.github-glitchenzo.nugetforunity",
         "jillejr.newtonsoft.json-for-unity.converters"
       ]
