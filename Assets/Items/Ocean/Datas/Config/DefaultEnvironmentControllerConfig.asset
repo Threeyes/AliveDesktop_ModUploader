@@ -15,7 +15,7 @@ MonoBehaviour:
   config:
     isUseLights: 1
     sunLightRotation: {x: 30, y: 180, z: -0}
-    sunLightIntensity: 5
+    sunLightIntensity: 1
     sunLightColor: {r: 1, g: 1, b: 1, a: 1}
     lightShadowType: 2
     isUseReflection: 1

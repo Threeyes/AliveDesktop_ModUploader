@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5fb1fb3feded6459e6e20499dcdb7a, type: 3}
+  m_Name: DogHead SunEntity
+  m_EditorClassIdentifier: 
+  remark: 
+  title: DogHead SunEntity
+  prefab: {fileID: 4781550583152852241, guid: 0d2603a9c5ac118408a850075923830b, type: 3}
+  preview: {fileID: 2800000, guid: 45fff6c9c3e46ac4281f297e2db2792d, type: 3}
+  description: 
+  tooltip: 

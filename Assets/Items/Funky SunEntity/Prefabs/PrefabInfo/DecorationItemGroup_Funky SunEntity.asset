@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5143bc4da72b445bd078ac0b24d5a1, type: 3}
+  m_Name: DecorationItemGroup_Funky SunEntity
+  m_EditorClassIdentifier: 
+  listData:
+  - {fileID: 11400000, guid: 7631b3208a2ff8e45bd12b49a9cd846e, type: 2}
+  - {fileID: 11400000, guid: c3dab748e67b22d4286be11247be4f84, type: 2}
+  - {fileID: 11400000, guid: 63bac069fb24e7e42898e2bfd067662a, type: 2}
+  remark: 
+  title: Funky SunEntity
