@@ -1938,8 +1938,11 @@ GameObject:
   - component: {fileID: 1596107367}
   - component: {fileID: 1596107366}
   - component: {fileID: 1596107365}
-  m_Layer: 0
-  m_Name: OceanSurface
+  - component: {fileID: 1596107370}
+  - component: {fileID: 1596107369}
+  - component: {fileID: 1596107368}
+  m_Layer: 2
+  m_Name: Ocean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2010,6 +2013,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1887074548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1596107368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596107363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380121bb7d4622c419104ef6eef22f4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soOverrideConfig: {fileID: 0}
+  id:
+    m_Guid: efd61e2e-a2be-436c-b7af-0453866b22f1
+  runtimeEditableDisplayName: 
+  m_Renderer: {fileID: 1596107365}
+  waterInfo:
+    steepness: 0
+    waveLength: 0
+    speed: 0
+    directions: {x: 0, y: 0.5, z: 1, w: 0.2}
+--- !u!114 &1596107369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596107363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89888f6c0f3fa534aa7c9b12bae5c61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfig:
+    isMakeEnterObjFloatable: 1
+    newlyFloatableObjStrength: 1.5
+  soOverrideConfig: {fileID: 0}
+  id:
+    m_Guid: b096ef33-740e-454d-a403-f60fd0ccf27d
+  runtimeEditableDisplayName: 
+  tfWaterSurface: {fileID: 0}
+  waveController: {fileID: 0}
+--- !u!65 &1596107370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596107363}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!1 &1634152889
 GameObject:
   m_ObjectHideFlags: 0

@@ -2070,6 +2070,8 @@ GameObject:
   - component: {fileID: 7002587129635714246}
   - component: {fileID: 8210874513272758566}
   - component: {fileID: 4916001546929172326}
+  - component: {fileID: 1989699465695626454}
+  - component: {fileID: 6034676888357865803}
   m_Layer: 0
   m_Name: PhysicsAgent_WhiteShark
   m_TagString: Untagged
@@ -2332,6 +2334,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35e33c28d9dd304d898cc6f55a5d0d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1989699465695626454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678177658512131162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906f69e215372f846a6d1e22a5891eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6034676888357865803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678177658512131162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f9bbca5de24ec479d5ade46c196b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLog:
+    m_PersistentCalls:
+      m_Calls: []
+  logType: 3
+  withName: 0
+  format: 
+  tips: "-\u6807\u8BB0\u4E3A\u4E0D\u53EF\u81EA\u52A8\u6DFB\u52A0\u6D6E\u529B\u7EC4\u4EF6\n-\u901A\u8FC7Key\u6807\u8BB0\u4E3A\u4E0D\u53EF\u88AB\u5438\u9644\n-\u6807\u8BB0\u4E3A\u8FD0\u884C\u65F6\u53EF\u9009\u62E9"
+  isLogOnConsole: 1
 --- !u!1 &5748487958207077866
 GameObject:
   m_ObjectHideFlags: 0

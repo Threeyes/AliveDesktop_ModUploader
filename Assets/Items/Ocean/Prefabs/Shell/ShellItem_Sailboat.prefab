@@ -615,19 +615,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    strength: 1
     objectDepth: 1
+    buoyancyStrength: 1.5
     velocityDrag: 0.2
     angularDrag: 0.2
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: f2632d34-a7d0-4d9b-951e-bc56462095f0
   runtimeEditableDisplayName: 
-  waterHeight: 0
-  steepness: 0.088
-  wavelength: 2.8
-  speed: 0.57
-  directions: {x: 0, y: 0.5, z: 1, w: 0.2}
   m_Rigidbody: {fileID: 3243095816924327978}
   effectors:
   - {fileID: 6459565482629437421}
@@ -908,7 +903,7 @@ Transform:
   m_GameObject: {fileID: 6298172204769534766}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.355, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
