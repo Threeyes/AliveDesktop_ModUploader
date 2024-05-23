@@ -193,29 +193,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    strength: 1
     objectDepth: 0.2
+    buoyancyStrength: 1.5
     velocityDrag: 1
-    angularDrag: 0.5
+    angularDrag: 0.8
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: a00d812a-02c8-4cf3-b79e-a8dce3b21a2c
   runtimeEditableDisplayName: 
-  cacheDefaultConfig:
-    strength: 1
-    objectDepth: 1
-    velocityDrag: 1
-    angularDrag: 0.5
-  waterHeight: 0
-  steepness: 0.088
-  wavelength: 2.8
-  speed: 0.57
-  directions: {x: 0, y: 0.5, z: 1, w: 0.2}
-  strength: 1
-  objectDepth: 0.2
-  velocityDrag: 0.99
-  angularDrag: 0.5
   m_Rigidbody: {fileID: 9111087792436567603}
+  averageGravity: 1
   effectors:
   - {fileID: 780284852455913972}
   - {fileID: 7568259661189234174}

@@ -161,29 +161,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    strength: 1
     objectDepth: 0.2
+    buoyancyStrength: 1.5
     velocityDrag: 1
-    angularDrag: 0.5
+    angularDrag: 0.8
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: 0d12e293-4fb0-4ef9-8747-6d8646817bca
   runtimeEditableDisplayName: 
-  cacheDefaultConfig:
-    strength: 1
-    objectDepth: 1
-    velocityDrag: 1
-    angularDrag: 0.5
-  waterHeight: 0
-  steepness: 0.088
-  wavelength: 2.8
-  speed: 0.57
-  directions: {x: 0, y: 0.5, z: 1, w: 0.2}
-  strength: 1
-  objectDepth: 0.2
-  velocityDrag: 0.99
-  angularDrag: 0.5
   m_Rigidbody: {fileID: 9161654457090565842}
+  averageGravity: 1
   effectors:
   - {fileID: 829096446766940437}
   - {fileID: 7517200691418334495}
@@ -444,21 +431,15 @@ MonoBehaviour:
     listColorShaderProperty: []
     listIntShaderProperty: []
     listFloatShaderProperty: []
+    listBoolShaderProperty: []
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: 6317a207-b0b9-4218-b2d4-a3f16e8a1f52
   runtimeEditableDisplayName: MaterialController(Body)
-  cacheDefaultConfig:
-    materialIndex: 0
-    listTextureShaderProperty: []
-    listColorShaderProperty: []
-    listIntShaderProperty: []
-    listFloatShaderProperty: []
   targetRenderer: {fileID: 5215574118328963718}
   targetMaterial: {fileID: 0}
-  isShareMaterial: 0
+  useSharedMaterial: 0
   listRendererMaterialInfo: []
-  cloneMaterial: {fileID: 0}
 --- !u!114 &1615888820150148584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,21 +465,15 @@ MonoBehaviour:
     listColorShaderProperty: []
     listIntShaderProperty: []
     listFloatShaderProperty: []
+    listBoolShaderProperty: []
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: 533c591f-9a27-4253-a953-795e30651215
   runtimeEditableDisplayName: MaterialController(Leather)
-  cacheDefaultConfig:
-    materialIndex: 0
-    listTextureShaderProperty: []
-    listColorShaderProperty: []
-    listIntShaderProperty: []
-    listFloatShaderProperty: []
   targetRenderer: {fileID: 5724482599991874403}
   targetMaterial: {fileID: 0}
-  isShareMaterial: 0
+  useSharedMaterial: 0
   listRendererMaterialInfo: []
-  cloneMaterial: {fileID: 0}
 --- !u!114 &3589716801541535799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,10 +493,8 @@ MonoBehaviour:
   id:
     m_Guid: 4afaab5b-9fc9-425f-b3f2-b2cf896a64ab
   runtimeEditableDisplayName: TextController(Color)
-  cacheDefaultConfig:
-    text: 
-    textColor: {r: 1, g: 1, b: 1, a: 1}
   text: {fileID: 0}
+  tMP_Text: {fileID: 0}
   onSetText:
     m_PersistentCalls:
       m_Calls: []

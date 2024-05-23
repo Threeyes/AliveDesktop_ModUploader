@@ -207,19 +207,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    strength: 1
     objectDepth: 0.2
-    velocityDrag: 1
-    angularDrag: 0.5
+    buoyancyStrength: 1.5
+    drag: 1
+    angularDrag: 1.5
+    isAverageGravity: 1
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: 2aa468b3-f440-437d-9c83-06fb9f02d7d8
   runtimeEditableDisplayName: 
-  waterHeight: 0
-  steepness: 0.088
-  wavelength: 2.8
-  speed: 0.57
-  directions: {x: 0, y: 0.5, z: 1, w: 0.2}
   m_Rigidbody: {fileID: 1862763499590828937}
   effectors:
   - {fileID: 1567771051898923145}
@@ -484,15 +480,15 @@ MonoBehaviour:
         useRange: 1
         minValue: 0
         maxValue: 1
+    listBoolShaderProperty: []
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: 06ec9ee1-94cc-4392-901a-22529e8e1142
   runtimeEditableDisplayName: Body
   targetRenderer: {fileID: 6309664465076572561}
   targetMaterial: {fileID: 0}
-  isShareMaterial: 0
+  useSharedMaterial: 0
   listRendererMaterialInfo: []
-  cloneMaterial: {fileID: 0}
 --- !u!114 &7829620772016745599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,6 +509,7 @@ MonoBehaviour:
     m_Guid: 68e3f4c7-0f87-474f-a141-ba26621d0db1
   runtimeEditableDisplayName: 
   text: {fileID: 5768897981400516631}
+  tMP_Text: {fileID: 0}
   onSetText:
     m_PersistentCalls:
       m_Calls: []

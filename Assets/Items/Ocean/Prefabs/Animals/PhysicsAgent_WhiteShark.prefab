@@ -2110,7 +2110,7 @@ MonoBehaviour:
   _flockBox: {fileID: 0}
   shape:
     type: 0
-    radius: 1
+    radius: 2
   debugDrawShape: 1
   tagSearchableOutsideBounds: 0
   activeSettings: {fileID: 11400000, guid: d5865ad18554c694da154cd700ad1d45, type: 2}
