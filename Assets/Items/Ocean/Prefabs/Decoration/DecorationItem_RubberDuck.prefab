@@ -214,7 +214,7 @@ MonoBehaviour:
     isAverageGravity: 1
   soOverrideConfig: {fileID: 0}
   id:
-    m_Guid: 2aa468b3-f440-437d-9c83-06fb9f02d7d8
+    m_Guid: 7db7cffb-e5b1-4e16-921f-f9972c159fb4
   runtimeEditableDisplayName: 
   m_Rigidbody: {fileID: 1862763499590828937}
   effectors:

@@ -195,14 +195,14 @@ MonoBehaviour:
   defaultConfig:
     objectDepth: 0.2
     buoyancyStrength: 1.5
-    velocityDrag: 1
+    drag: 1
     angularDrag: 0.8
+    isAverageGravity: 0
   soOverrideConfig: {fileID: 0}
   id:
-    m_Guid: a00d812a-02c8-4cf3-b79e-a8dce3b21a2c
+    m_Guid: ff7193a7-e062-4538-bc62-bf8d1802ad61
   runtimeEditableDisplayName: 
   m_Rigidbody: {fileID: 9111087792436567603}
-  averageGravity: 1
   effectors:
   - {fileID: 780284852455913972}
   - {fileID: 7568259661189234174}

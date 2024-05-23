@@ -339,14 +339,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    objectDepth: 0.01
+    objectDepth: 0.1
     buoyancyStrength: 1.5
     drag: 1
     angularDrag: 0.01
     isAverageGravity: 0
   soOverrideConfig: {fileID: 0}
   id:
-    m_Guid: 0109a7ff-8347-4d54-b502-11f161769c8b
+    m_Guid: f8a1e060-1288-49e3-b0d0-771ab296d2b0
   runtimeEditableDisplayName: 
   m_Rigidbody: {fileID: 4220798596544913859}
   effectors:
