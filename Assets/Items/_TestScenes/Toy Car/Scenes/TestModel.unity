@@ -22587,8 +22587,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   isLocalSpace: 1
+  startPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 0, y: 0, z: 0}
   startRotation: {x: -35, y: 0, z: 0}
   targetRotation: {x: 35, y: 0, z: 0}
+  startScale: {x: 1, y: 1, z: 1}
+  targetScale: {x: 1, y: 1, z: 1}
 --- !u!33 &4263727646840269419
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24198,6 +24202,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onBoostStartStop:
+    m_PersistentCalls:
+      m_Calls: []
+  onBrakeStartStop:
+    m_PersistentCalls:
+      m_Calls: []
   listWheelAppearance:
   - wheelCollider: {fileID: 781796560643839230}
     tfWheelModel: {fileID: 2528864761334406822}
@@ -27328,8 +27338,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   isLocalSpace: 1
+  startPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 0, y: 0, z: 0}
   startRotation: {x: 0, y: -45, z: 0}
   targetRotation: {x: 0, y: 45, z: 0}
+  startScale: {x: 1, y: 1, z: 1}
+  targetScale: {x: 1, y: 1, z: 1}
 --- !u!114 &7520022176229940366
 MonoBehaviour:
   m_ObjectHideFlags: 0
