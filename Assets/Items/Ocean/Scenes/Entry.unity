@@ -634,6 +634,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!1001 &680138246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1552,6 +1554,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!1 &1385211391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,6 +2052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
+    buoyancyStrengthScale: 1
     isMakeEnterObjFloatable: 1
     newlyFloatableObjStrength: 1.5
   soOverrideConfig: {fileID: 0}
@@ -2439,6 +2444,11 @@ PrefabInstance:
         type: 3}
       propertyPath: cacheInstanceID.m_Guid
       value: b795d3b3-12bd-4334-ab42-1e022d037bde
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486251203056300640, guid: 02d3b1f2c4683b5418387d6dedf899b0,
+        type: 3}
+      propertyPath: persistentPrefabID.m_Guid
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
