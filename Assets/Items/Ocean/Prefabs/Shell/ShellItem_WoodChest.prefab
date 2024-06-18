@@ -176,6 +176,7 @@ MonoBehaviour:
   - {fileID: 7517200691418334495}
   - {fileID: 5136620064881287536}
   - {fileID: 510385349592722638}
+  buoyantVolume: {fileID: 0}
 --- !u!114 &5853172871615605020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +194,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: f04720e5c7ff1ea4e98fc5d2cdade0f4
 --- !u!114 &4113956911596570829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,7 +422,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    materialIndex: 0
     listTextureShaderProperty:
     - name: _BaseMap
       defaultTexture: {fileID: 2800000, guid: 1970c3b1c2f3dea42971a6d1ee6f9c64, type: 3}
@@ -435,8 +437,9 @@ MonoBehaviour:
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: 6317a207-b0b9-4218-b2d4-a3f16e8a1f52
-  runtimeEditableDisplayName: MaterialController(Body)
+  runtimeEditableDisplayName: Body
   targetRenderer: {fileID: 5215574118328963718}
+  targetMaterialIndex: 0
   targetMaterial: {fileID: 0}
   useSharedMaterial: 0
   listRendererMaterialInfo: []
@@ -453,7 +456,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    materialIndex: 0
     listTextureShaderProperty:
     - name: _BaseMap
       defaultTexture: {fileID: 2800000, guid: 1970c3b1c2f3dea42971a6d1ee6f9c64, type: 3}
@@ -469,8 +471,9 @@ MonoBehaviour:
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: 533c591f-9a27-4253-a953-795e30651215
-  runtimeEditableDisplayName: MaterialController(Leather)
+  runtimeEditableDisplayName: Leather
   targetRenderer: {fileID: 5724482599991874403}
+  targetMaterialIndex: 0
   targetMaterial: {fileID: 0}
   useSharedMaterial: 0
   listRendererMaterialInfo: []

@@ -53,6 +53,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!114 &1551667234607407742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +133,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!114 &5815547969032121129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,6 +355,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!114 &6069508281051611903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,10 +553,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheInstanceID:
-    m_Guid: 1dce7923-cbfa-4b52-a362-4e71fd4ba151
+    m_Guid: 
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: e79c6163d1f6c364fb70639649594407
 --- !u!114 &1501271042305635150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -617,9 +625,9 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    toolTipText: 
-    texture: {fileID: 0}
     text: Toggle Follow Player
+    texture: {fileID: 0}
+    toolTipText: 
     priority: 0
 --- !u!1 &5274110093197701314
 GameObject:
@@ -1055,6 +1063,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!1 &8331159812191856588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,6 +1120,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!114 &2548523417535304025
 MonoBehaviour:
   m_ObjectHideFlags: 0

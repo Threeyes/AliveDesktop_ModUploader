@@ -354,6 +354,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: a6ec726a3707e294f80a8c2959d32f80
 --- !u!114 &-3571163521598639979
 MonoBehaviour:
   m_ObjectHideFlags: 0

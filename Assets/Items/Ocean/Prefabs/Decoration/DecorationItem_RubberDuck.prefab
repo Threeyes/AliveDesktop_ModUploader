@@ -222,6 +222,7 @@ MonoBehaviour:
   - {fileID: 3584102860660516098}
   - {fileID: 1569447489468092816}
   - {fileID: 6552631515044053361}
+  buoyantVolume: {fileID: 0}
 --- !u!114 &3590807511102964366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +240,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 8f2d08f6d56cdc649a02518a1c4cf60a
 --- !u!114 &2547065781726853278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    materialIndex: 0
     listTextureShaderProperty:
     - name: _BaseMap
       defaultTexture: {fileID: 2800000, guid: d8e88a0215780bb48a91866a0c9d8b30, type: 3}
@@ -486,6 +488,7 @@ MonoBehaviour:
     m_Guid: 06ec9ee1-94cc-4392-901a-22529e8e1142
   runtimeEditableDisplayName: Body
   targetRenderer: {fileID: 6309664465076572561}
+  targetMaterialIndex: 0
   targetMaterial: {fileID: 0}
   useSharedMaterial: 0
   listRendererMaterialInfo: []

@@ -212,6 +212,7 @@ MonoBehaviour:
   - {fileID: 8800819103394475769}
   - {fileID: 6798268275637803627}
   - {fileID: 1256538871468264074}
+  buoyantVolume: {fileID: 0}
 --- !u!114 &8812027966976805237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +230,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 2c705faaac76f98429265a98dc158429
 --- !u!114 &7550141847852331877
 MonoBehaviour:
   m_ObjectHideFlags: 0

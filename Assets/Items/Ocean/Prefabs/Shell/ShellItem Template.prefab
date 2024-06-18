@@ -164,21 +164,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d6aa03292c84520b3da93e241f1422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterHeight: 0
-  steepness: 0.088
-  wavelength: 2.8
-  speed: 0.57
-  directions: {x: 0, y: 0.5, z: 1, w: 0.2}
-  strength: 1
-  objectDepth: 0.2
+  defaultConfig:
+    objectDepth: 1
+    buoyancyStrength: 1.5
+    drag: 1
+    angularDrag: 0.5
+    isAverageGravity: 0
+  soOverrideConfig: {fileID: 0}
+  id:
+    m_Guid: f31a4182-825f-46bb-ba88-60d341efd01f
+  runtimeEditableDisplayName: 
   m_Rigidbody: {fileID: 3110999794543932893}
-  velocityDrag: 0.99
-  angularDrag: 0.5
   effectors:
   - {fileID: 6884116208863302170}
   - {fileID: 4348990527624238608}
   - {fileID: 1387162970777186943}
   - {fileID: 5989085061609357249}
+  buoyantVolume: {fileID: 0}
 --- !u!114 &374472029392517651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,6 +198,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 525cb8e48736f114e8941ba9b56821e2
 --- !u!114 &7863135308687170498
 MonoBehaviour:
   m_ObjectHideFlags: 0

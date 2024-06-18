@@ -162,10 +162,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheInstanceID:
-    m_Guid: 25579df2-e51a-45d8-8543-9ebb0bf3d61b
+    m_Guid: 
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 586dbdf0018ffc34e8e786a6386a93b2
 --- !u!114 &7111910652814131210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +494,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onBoostStartStop:
+    m_PersistentCalls:
+      m_Calls: []
+  onBrakeStartStop:
+    m_PersistentCalls:
+      m_Calls: []
   listWheelAppearance:
   - wheelCollider: {fileID: 2484278554334425143}
     tfWheelModel: {fileID: 844641399195449967}
@@ -513,7 +521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a37430dac250f6444ab6d4b0b5371241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carController: {fileID: 7778119697081621767}
   onActive:
     m_PersistentCalls:
       m_Calls:
@@ -547,6 +554,7 @@ MonoBehaviour:
   onActiveDeactive:
     m_PersistentCalls:
       m_Calls: []
+  carController: {fileID: 7778119697081621767}
 --- !u!114 &1065172815852414127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,7 +598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    materialIndex: 0
     listTextureShaderProperty: []
     listColorShaderProperty:
     - name: _BaseColor
@@ -612,13 +619,15 @@ MonoBehaviour:
         useRange: 1
         minValue: 0
         maxValue: 1
+    listBoolShaderProperty: []
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: f383c286-44a3-4e1a-a06e-c9b3748bd3eb
   runtimeEditableDisplayName: Shell
   targetRenderer: {fileID: 4059335506820419355}
+  targetMaterialIndex: 0
   targetMaterial: {fileID: 0}
-  isShareMaterial: 0
+  useSharedMaterial: 0
   listRendererMaterialInfo:
   - renderer: {fileID: 5572649526474885701}
     materialIndex: 0
@@ -626,7 +635,6 @@ MonoBehaviour:
     materialIndex: 0
   - renderer: {fileID: 5379563744666139011}
     materialIndex: 0
-  cloneMaterial: {fileID: 0}
 --- !u!114 &1125648058229054132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +648,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultConfig:
-    materialIndex: 1
     listTextureShaderProperty: []
     listColorShaderProperty:
     - name: _BaseColor
@@ -662,15 +669,16 @@ MonoBehaviour:
         useRange: 1
         minValue: 0
         maxValue: 1
+    listBoolShaderProperty: []
   soOverrideConfig: {fileID: 0}
   id:
     m_Guid: c642b135-b751-4020-a9cb-eacd04906083
   runtimeEditableDisplayName: Interior
   targetRenderer: {fileID: 4059335506820419355}
+  targetMaterialIndex: 0
   targetMaterial: {fileID: 0}
-  isShareMaterial: 0
+  useSharedMaterial: 0
   listRendererMaterialInfo: []
-  cloneMaterial: {fileID: 0}
 --- !u!1 &268473946936506607
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,8 +951,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   isLocalSpace: 1
+  startPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 0, y: 0, z: 0}
   startRotation: {x: 0, y: -45, z: 0}
   targetRotation: {x: 0, y: 45, z: 0}
+  startScale: {x: 1, y: 1, z: 1}
+  targetScale: {x: 1, y: 1, z: 1}
 --- !u!1 &668149365067588882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,6 +1869,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!114 &8273302346541191668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4215,6 +4229,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!114 &6123872611591883609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4468,6 +4484,8 @@ MonoBehaviour:
   cachePrefabID:
     m_Guid: 
   cacheScope: 
+  persistentPrefabID:
+    m_Guid: 
 --- !u!114 &7177324948852215985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4873,8 +4891,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   isLocalSpace: 1
+  startPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 0, y: 0, z: 0}
   startRotation: {x: -35, y: 0, z: 0}
   targetRotation: {x: 35, y: 0, z: 0}
+  startScale: {x: 1, y: 1, z: 1}
+  targetScale: {x: 1, y: 1, z: 1}
 --- !u!65 &4518116745557548360
 BoxCollider:
   m_ObjectHideFlags: 0
