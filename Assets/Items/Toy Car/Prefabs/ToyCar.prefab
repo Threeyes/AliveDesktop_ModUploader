@@ -387,7 +387,7 @@ MonoBehaviour:
     boostScale: 2
     breakForce: 30
     maxSteerAngle: 45
-    steerAngleIncreaseSpeed: 360
+    steerAngleIncreaseSpeed: 120
     steerAngleDecreaseSpeed: 360
     downForce: 0
     listWheelInfo:
