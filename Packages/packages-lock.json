@@ -24,7 +24,7 @@
       "url": "https://package.openupm.com"
     },
     "com.threeyes.alivedesktop.sdk": {
-      "version": "0.6.4",
+      "version": "0.7.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -156,19 +156,6 @@
         "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.demoteam.hair": {
-      "version": "https://github.com/Unity-Technologies/com.unity.demoteam.hair.git#0.11.0-exp.1",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.burst": "1.4.1",
-        "com.unity.collections": "0.15.0-preview.21",
-        "com.unity.mathematics": "1.2.6",
-        "com.unity.render-pipelines.core": "10.2.2",
-        "com.unity.shadergraph": "10.2.2"
-      },
-      "hash": "12279cb83ccdf0a0b734df3efcc5f2ee2776ce4f"
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
@@ -413,13 +400,6 @@
     },
     "com.yasirkula.beziersolution": {
       "version": "2.3.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://package.openupm.com"
-    },
-    "com.zibra.liquids-free": {
-      "version": "1.4.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},

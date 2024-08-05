@@ -815,7 +815,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: USE_INPUT_SYSTEM_POSE_CONTROL
-    Standalone: UNITY_PIPELINE_URP;USE_DOTween;USE_NaughtyAttributes;USE_JsonDotNet;USE_VFX;Threeyes_UnityGifDecoder;Threeyes_VideoPlayer;Threeyes_Timeline;Threeyes_BezierSolution;Threeyes_XRI;USE_INPUT_SYSTEM_POSE_CONTROL
+    Standalone: UNITY_PIPELINE_URP;USE_DOTween;USE_NaughtyAttributes;USE_JsonDotNet;USE_VFX;Threeyes_UnityGifDecoder;Threeyes_VideoPlayer;Threeyes_Timeline;Threeyes_BezierSolution;Threeyes_XRI;USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_CCU
     Windows Store Apps: UNITY_PIPELINE_URP;USE_INPUT_SYSTEM_POSE_CONTROL
   additionalCompilerArguments: {}
   platformArchitecture: {}
