@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8fe64a31b203140b0a856a2bd04d0e, type: 3}
+  m_Name: GameFrameworkEditorSetting
+  m_EditorClassIdentifier: 
+  curWorkshopItemInfo: {fileID: 11400000, guid: 1e7c944c036d9bc4da30239cc2932a9c,
+    type: 2}
+  itemWindow_ExePath: 
+  itemWindow_IsPreviewGif: 0
+  itemWindow_ShowOutputDirectory: 1
+  platformMode: 0
+  hubSimulator_ShowAssistantGizmo: 1
+  hubSimulator_ShowAssistantInfo: 1
+  hubSimulator_EnableFly: 1
+  hubSimulator_IsPenetrateOnFly: 1
+  hubSimulator_UseGravity: 0
